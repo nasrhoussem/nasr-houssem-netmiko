@@ -30,7 +30,7 @@ def acces_netmiko():
 
   
     cisco_router = {
-        "device_type": "cisco_xr",       # type adapté pour IOS XR
+        "device_type": "cisco_xr",      
         "host": "sandbox-iosxr-1.cisco.com",
         "username": "admin",
         "password": "C1sco12345",
