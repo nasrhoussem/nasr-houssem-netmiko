@@ -1,17 +1,29 @@
 Mon Projet Netmiko
 
 mkdir prenom-nom-netmiko
+
 cd prenom-nom-netmiko
+
 git init
+
 echo 'print("Hello, Git!")' > main.py
+
 git add main.py
+
 git commit -m "Ajout du script Python principal"
+
 git add main.py
+
 git  checkout -b feature/netmiko
+
 git commit -m "Ajout du script Python principal"
+
 git log
+
 git checkout -b feature/netmiko
+
 vim main.py
+
 from netmiko import ConnectHandler
 
 def acces_netmiko():
