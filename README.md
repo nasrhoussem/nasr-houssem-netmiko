@@ -58,7 +58,7 @@ git log --oneline
 git checkout main
 git merge feature/netmiko
 git log --oneline
-git remote add origin https://github.com/votre-utilisateur/prenom-nom-netmiko.git
+git remote add origin https://github.com/nasrhoussem/nasr-houssem-netmiko.git
 git push -u origin main
 git fetch origin
 git checkout -b feature/salut origin/feature/salut
